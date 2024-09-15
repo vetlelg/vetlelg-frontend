@@ -29,7 +29,7 @@ const App = () => {
                     <Education education={education} />
                     <Experience experience={experience} />
                     <Projects projects={projects} />
-                </div> 
+                </div>  
             </div>
         </div>
     </div>
