@@ -6,7 +6,7 @@ const Profile = () => (
         <div className="me-md-5 col-sm-8 col-md-6 col-lg-12">
             <h1 className="fw-bold display-5 text-nowrap">Vetle L. Gundersen</h1>
             <h5 className="fw-medium">Software Engineering Student</h5>
-            <p style={{width: 300}}>Looking for new opportunities to gain more experience and learn new things.</p>
+            <p style={{width: 300}}>Currently looking for opportunities to gain more experience and learn new things.</p>
             <Navbar className="pb-5">
             <Nav>
                 <Nav.Link className="pt-0 ps-0 pe-2" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
