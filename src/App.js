@@ -26,9 +26,9 @@ const App = () => {
                 </div>
                 <div className="col-12 col-lg-6 pt-lg-5">
                     <About />
+                    <Projects projects={projects} />
                     <Education education={education} />
                     <Experience experience={experience} />
-                    <Projects projects={projects} />
                 </div>  
             </div>
         </div>

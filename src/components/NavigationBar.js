@@ -20,9 +20,9 @@ const NavigationBar = () => {
             <Offcanvas.Body>
                 <Nav className="ms-auto">
                     <Nav.Link className="px-3" href="/">ABOUT</Nav.Link>
+                    <Nav.Link className="px-3" href="/#projects">PROJECTS</Nav.Link>
                     <Nav.Link className="px-3" href="/#education">EDUCATION</Nav.Link>
                     <Nav.Link className="px-3" href="/#experience">EXPERIENCE</Nav.Link>
-                    <Nav.Link className="px-3" href="/#projects">PROJECTS</Nav.Link>
                     <Form.Check className="p-2 ps-5" type="switch" label={darkTheme ? 'Dark' : 'Light'} onClick={toggleTheme}></Form.Check>
                 </Nav>
             </Offcanvas.Body>
