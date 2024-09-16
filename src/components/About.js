@@ -2,7 +2,7 @@ const About = () => (
         <div id="about" className="row pt-5">
             <h6 className="fw-bold">ABOUT</h6>
             <p className="pt-4">
-                I'm a current software engineering student, with a background as an IT technician. After working for several years, I decided to go to university to pursue a career in software engineering.
+                I'm a software engineering student, with a background as an IT technician. After working for several years, I decided to go to university to pursue a career in software engineering.
             </p>
             <p>
                 I have experience with the following relevant technologies and tools through my studies, projects I've worked with and courses/certifications:
