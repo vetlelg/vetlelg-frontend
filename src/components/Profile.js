@@ -12,11 +12,11 @@ const Profile = () => (
                 <Nav.Link className="pt-0 ps-0 pe-2" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
                 <Nav.Link className="pt-0 pe-2" href="https://github.com/vetlelg">GITHUB</Nav.Link>
                 <Nav.Link className="pt-0 pe-2" href="mailto:vetlelg@hotmail.com">EMAIL</Nav.Link>
-                <Nav.Link className="pt-0" href="../assets/documents/CV-Vetle Larsen Gundersen.pdf">RESUME</Nav.Link>
+                <Nav.Link className="pt-0" href="/CV-VetleLarsenGundersen.pdf" target="_blank">RESUME</Nav.Link>
             </Nav>
             </Navbar>
         </div>
-        <img className="d-none d-md-inline col-md-5 col-lg-9 rounded-circle" src={require("../assets/images/profile.JPEG")} alt="Vetle L. Gundersen" />
+        <img className="d-none d-md-inline col-md-5 col-lg-9 rounded-circle" src="/profile.JPEG" alt="Vetle L. Gundersen" />
     </div>
 );
 

@@ -17,7 +17,7 @@ const About = () => (
             <p>
                 I'm currently looking for new opportunities to gain more experience and learn new things. Feel free to contact me if you have any opportunities or questions.
             </p>
-            <img className="mt-5 d-md-none col-10 col-sm-8 mx-auto rounded-circle" src={require("../assets/images/profile.JPEG")} alt="Vetle L. Gundersen" />
+            <img className="mt-5 d-md-none col-10 col-sm-8 mx-auto rounded-circle" src="/profile.JPEG" alt="Vetle L. Gundersen" />
         </div>
  
 );
