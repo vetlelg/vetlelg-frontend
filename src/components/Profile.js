@@ -9,9 +9,9 @@ const Profile = () => (
             <p style={{width: 300}}>Looking for new opportunities to gain more experience and learn new things.</p>
             <Navbar className="pb-5">
             <Nav>
-                <Nav.Link className="pt-0 ps-0 pe-3" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
-                <Nav.Link className="pt-0 pe-3" href="https://github.com/vetlelg">GITHUB</Nav.Link>
-                <Nav.Link className="pt-0 pe-3" href="mailto:vetlelg@hotmail.com">EMAIL</Nav.Link>
+                <Nav.Link className="pt-0 ps-0 pe-2" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
+                <Nav.Link className="pt-0 pe-2" href="https://github.com/vetlelg">GITHUB</Nav.Link>
+                <Nav.Link className="pt-0 pe-2" href="mailto:vetlelg@hotmail.com">EMAIL</Nav.Link>
                 <Nav.Link className="pt-0" href="../assets/documents/CV-Vetle Larsen Gundersen.pdf">RESUME</Nav.Link>
             </Nav>
             </Navbar>
