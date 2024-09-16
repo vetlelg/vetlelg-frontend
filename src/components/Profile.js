@@ -12,7 +12,7 @@ const Profile = () => (
                 <Nav.Link className="pt-0 ps-0 pe-3" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
                 <Nav.Link className="pt-0 pe-3" href="https://github.com/vetlelg">GITHUB</Nav.Link>
                 <Nav.Link className="pt-0 pe-3" href="mailto:vetlelg@hotmail.com">EMAIL</Nav.Link>
-                <Nav.Link className="pt-0" href="#">RESUME</Nav.Link>
+                <Nav.Link className="pt-0" href="../assets/documents/CV-Vetle Larsen Gundersen.pdf">RESUME</Nav.Link>
             </Nav>
             </Navbar>
         </div>
