@@ -1,3 +1,4 @@
+// Creates a ProjectItem with the data from the database
 const ProjectItem = ({ item }) => (
     <div className="row pt-4">
         <div className="col-12 col-md-3 small">

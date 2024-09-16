@@ -1,4 +1,5 @@
 @media (min-width: 992px) {
+    /* This is  used for the navigation bar. It should only be fixed on large screens */
     .fixed-lg-top {
         position: fixed;
         top: 0;
