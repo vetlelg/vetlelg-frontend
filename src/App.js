@@ -19,6 +19,12 @@ const App = () => {
     const [experience, setExperience] = useState(experienceDatabase);
     const [projects, setProjects] = useState(projectDatabase);
 
+    const [darkTheme, setDarkTheme] = useState(true); // Set initial theme
+    const toggleTheme = () => {
+        setDarkTheme(!darkTheme);
+        document.body.setAttribute('data-bs-theme', darkTheme ? 'light' : 'dark'); // Apply the theme to the body
+    };
+
     
     return (
         /**
@@ -37,7 +43,7 @@ const App = () => {
          */
         <div>
             <div className="container-fluid fixed-lg-top z-1">
-                <NavigationBar />
+                <NavigationBar darkTheme={darkTheme} toggleTheme={toggleTheme} />
             </div>
             <div className="container-fluid px-4 px-sm-5" style={{ maxWidth: 1200 }}>
                 <div className="row px-md-4">
@@ -46,7 +52,7 @@ const App = () => {
                     </div>
                     <div className="col-12 col-lg-6 pt-lg-5">
                         <About />
-                        <Projects projects={projects} />
+                        <Projects projects={projects} darkTheme={darkTheme} />
                         <Education education={education} />
                         <Experience experience={experience} />
                     </div>

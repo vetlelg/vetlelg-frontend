@@ -5,12 +5,8 @@ import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const NavigationBar = () => {
-    const [darkTheme, setDarkTheme] = useState(true); // Set initial theme
-    const toggleTheme = () => {
-        setDarkTheme(!darkTheme);
-        document.body.setAttribute('data-bs-theme', darkTheme ? 'light' : 'dark'); // Apply the theme to the body
-    };
+const NavigationBar = ({ darkTheme, toggleTheme }) => {
+    
 
     return (
         /**
