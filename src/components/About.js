@@ -5,8 +5,8 @@ const About = () => (
                 I'm a software engineering student, with a background as an IT technician. After working for some years, I decided to go to university to pursue a degree in software engineering.
             </p>
             <p>
-                I have experience with the following languages and frameworks/libraries through my studies, projects I've worked with and courses/certifications:
-                <br/>.NET/C#, Spring Boot/Java/Kotlin, React/JavaScript, Bootstrap, CSS/HTML, SQL, Python
+                I have experience with the following languages, frameworks and libraries through my studies, projects I've worked with, courses and certifications:
+                <br/>.NET, C#, Spring Boot, Java, Kotlin, React, JavaScript, Bootstrap, CSS, HTML, SQL, Python
             </p>
             <p>
                 I'm currently looking for new opportunities to gain more experience and learn new things.
