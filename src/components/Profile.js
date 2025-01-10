@@ -1,6 +1,10 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faGoodreads } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
 const Profile = () => (
     <div className="row pt-lg-5">
         <div className="me-md-5 col-sm-8 col-md-6 col-lg-12">
@@ -9,10 +13,21 @@ const Profile = () => (
             <p style={{width: 305}}>Looking for opportunities to gain more experience and learn new things.</p>
             <Navbar className="pb-5">
             <Nav>
-                <Nav.Link className="pt-0 ps-0 pe-2" href="https://linkedin.com/in/vetlelg">LINKEDIN</Nav.Link>
-                <Nav.Link className="pt-0 pe-2" href="https://github.com/vetlelg">GITHUB</Nav.Link>
-                <Nav.Link className="pt-0 pe-2" href="mailto:vetlelg@hotmail.com">EMAIL</Nav.Link>
-                <Nav.Link className="pt-0" href="/CV-VetleLarsenGundersen.pdf" target="_blank">RESUME</Nav.Link>
+                <Nav.Link className="pt-0 ps-0 pe-3" href="https://linkedin.com/in/vetlelg">
+                    <FontAwesomeIcon icon={faLinkedin} size="xl" />
+                </Nav.Link>
+                <Nav.Link className="pt-0 pe-3" href="https://github.com/vetlelg">
+                    <FontAwesomeIcon icon={faGithub} size="xl" />
+                </Nav.Link>
+                <Nav.Link className="pt-0 pe-3" href="mailto:vetlelg@hotmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} size="xl" />
+                </Nav.Link>
+                <Nav.Link className="pt-0 pe-3" href="https://www.goodreads.com/user/show/130873670-vetle-larsen-gundersen">
+                    <FontAwesomeIcon icon={faGoodreads} size="xl" />
+                </Nav.Link>
+                <Nav.Link className="pt-0" href="/CV-VetleLarsenGundersen.pdf" target="_blank">
+                    <FontAwesomeIcon icon={faFilePdf} size="xl" />
+                </Nav.Link>
             </Nav>
             </Navbar>
         </div>
