@@ -10,10 +10,10 @@ const Profile = () => (
         <div className="me-md-5 col-sm-8 col-md-6 col-lg-12">
             <h1 className="fw-bold display-5 text-nowrap">Vetle L. Gundersen</h1>
             <h5 className="fw-medium">Software Engineering Student</h5>
-            <p style={{width: 305}}>Looking for opportunities to gain more experience and learn new things.</p>
+            <p style={{width: 305}}>Seeking opportunities to contribute on projects and expand my skills.</p>
             <Navbar className="pb-5">
             <Nav>
-                <Nav.Link className="pt-0 ps-0 pe-3" href="https://linkedin.com/in/vetlelg">
+                <Nav.Link className="pt-0 ps-2 pe-3" href="https://linkedin.com/in/vetlelg">
                     <FontAwesomeIcon icon={faLinkedin} size="xl" />
                 </Nav.Link>
                 <Nav.Link className="pt-0 pe-3" href="https://github.com/vetlelg">
@@ -31,7 +31,7 @@ const Profile = () => (
             </Nav>
             </Navbar>
         </div>
-        <img className="d-none d-md-inline col-md-5 col-lg-9 rounded-circle" src="/profile.JPEG" alt="Vetle L. Gundersen" />
+        <img className="d-none d-md-inline col-md-5 col-lg-9 rounded-circle img-fluid" src="/profile.JPEG" alt="Vetle L. Gundersen" />
     </div>
 );
 
