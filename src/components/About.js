@@ -8,9 +8,9 @@ const About = () => (
             Through my studies and hands-on projects, I've gained experience with a range of technologies, including:
         </p>
         <p>
-            Backend: C#/.NET, Kotlin/Java with Spring Boot
-            <br/>Frontend: JavaScript/React, Bootstrap, CSS/HTML
-            <br/>DevOps &amp; Databases: SQL, Docker, Azure, and more
+            Backend: C#/.NET, Kotlin/Java/Spring Boot, SQL
+            <br/>Frontend: JavaScript, React, Bootstrap, CSS/HTML
+            <br/>DevOps: Docker, Azure, Git, Linux/Bash, Windows/Powershell
         </p>
         <img className="mt-5 d-md-none col-10 col-sm-8 mx-auto rounded-circle" src="/profile.JPEG" alt="Vetle L. Gundersen" />
     </div>
