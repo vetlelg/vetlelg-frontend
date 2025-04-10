@@ -5,7 +5,18 @@ const ProjectItem = ({ item, darkTheme }) => (
             <span>{item.year}</span>
         </div>
         <div className="col-12 col-md-9 pb-4">
-            <h6 className="mb-1 fw-bold">{item.title} | <a className="text-decoration-none" href={item.github}>GitHub</a></h6>
+            <h6 className="mb-1 fw-bold">
+                {item.title} |  
+                <a className="text-decoration-none" href={item.github}> GitHub</a>
+                {item.url && item.url.trim() !== '' && (
+                    <>
+                        {' | '}
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-decoration-none">
+                            Play here
+                        </a>
+                    </>
+                )}
+            </h6>
             <h6 className="small fw-bold">{item.organization}</h6>
             <p className="mb-1">{item.description}</p>
             <div>
