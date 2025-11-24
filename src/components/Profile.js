@@ -9,7 +9,7 @@ const Profile = () => (
     <div className="row pt-lg-5">
         <div className="me-md-5 col-sm-8 col-md-6 col-lg-12">
             <h1 className="fw-bold display-5 text-nowrap">Vetle L. Gundersen</h1>
-            <h5 className="fw-medium">IT Consultant at Decisive AS</h5>
+            <h5 className="fw-medium">Software Developer</h5>
             <p style={{width: 305}}>B.Eng in Software Engineering</p>
             <Navbar className="pb-5">
             <Nav>
